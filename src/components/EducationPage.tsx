@@ -5,10 +5,10 @@ const EducationPage = () => {
   const education = [
     {
       id: 1,
-      degree: 'Bachelor of Science in Computer Science',
-      institution: 'University of Technology',
-      year: '2015 - 2019',
-      location: 'California, USA',
+      degree: 'Bachelor of Science in Information System Engineering',
+      institution: 'Sri Lanka Institute Of Information Technology',
+      year: '2021 - 2025',
+      location: 'Colombo, Sri Lanka',
       description: 'Graduated Magna Cum Laude with a focus on software engineering and web development. Completed coursework in algorithms, data structures, database systems, and software architecture.',
       gpa: '3.8/4.0'
     },
