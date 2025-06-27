@@ -34,16 +34,7 @@ const ReferencesPage = () => {
       relationship: 'Academic Advisor',
       workPeriod: '2015 - 2019'
     },
-    {
-      id: 4,
-      name: 'David Thompson',
-      designation: 'Startup Founder & CTO',
-      company: 'StartUp Ventures',
-      email: 'david.thompson@startupventures.com',
-      phone: '+1 (555) 456-7890',
-      relationship: 'Former Manager',
-      workPeriod: '2019 - 2020'
-    }
+   
   ];
 
   return (
