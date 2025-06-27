@@ -6,9 +6,10 @@ const ReferencesPage = () => {
   const references = [
     {
       id: 1,
-      name: 'Sarah Johnson',
+      name: 'Dasuni Nawinna',
       designation: 'Senior Engineering Manager',
-      company: 'Tech Innovators Inc.',
+      company: ' Department of Computer Systems
+ Engineering.',
       email: 'sarah.johnson@techinnovators.com',
       phone: '+1 (555) 123-4567',
       relationship: 'Direct Supervisor',
@@ -24,17 +25,7 @@ const ReferencesPage = () => {
       relationship: 'Team Lead',
       workPeriod: '2020 - 2021'
     },
-    {
-      id: 3,
-      name: 'Dr. Emily Rodriguez',
-      designation: 'Professor of Computer Science',
-      company: 'University of Technology',
-      email: 'emily.rodriguez@university.edu',
-      phone: '+1 (555) 345-6789',
-      relationship: 'Academic Advisor',
-      workPeriod: '2015 - 2019'
-    },
-   
+    
   ];
 
   return (
