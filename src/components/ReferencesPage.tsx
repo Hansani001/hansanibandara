@@ -49,11 +49,6 @@ const ReferencesPage = () => {
                   </p>
                 </div>
                 
-                <div className="space-y-3">
-                  <div className="flex items-center justify-between text-sm">
-                    <span className="text-gray-400">Relationship:</span>
-                    <span className="text-blue-400 font-medium">{reference.relationship}</span>
-                  </div>
                   <div className="flex items-center justify-between text-sm">
                     <span className="text-gray-400">Period:</span>
                     <span className="text-white">{reference.workPeriod}</span>
