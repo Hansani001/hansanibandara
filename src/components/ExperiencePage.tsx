@@ -25,7 +25,7 @@ const ExperiencePage = () => {
       position: 'Customer Solutions Representative',
       location: 'Sri Lanka',
       period: 'Oct 2021  - Sep 2022',
-      'Skilled in CRM systems and customer service tools, with experience handling inquiries, resolving issues, and ensuring client satisfaction. Managed underwriting service activities efficiently and responded to queries promptly. Strong communicator with proven problem-solving abilities and a customer-focused mindset.'
+      description:'Skilled in CRM systems and customer service tools, with experience handling inquiries, resolving issues, and ensuring client satisfaction. Managed underwriting service activities efficiently and responded to queries promptly. Strong communicator with proven problem-solving abilities and a customer-focused mindset.'
     }
   ];
 
