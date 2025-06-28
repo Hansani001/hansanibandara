@@ -12,7 +12,7 @@ const HomePage = () => {
             <div className="space-y-4">
               <h1 className="text-5xl md:text-7xl font-bold">
                 Hi, I'm{' '}
-                <span className="gradient-text">Hansani Bandara </span>
+                <span className="gradient-text"> Hansani Bandara </span>
               </h1>
               <h2 className="text-2xl md:text-3xl text-gray-300">
                 Final Year Information Systems Engineering Undergraduate
