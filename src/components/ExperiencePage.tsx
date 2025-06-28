@@ -4,7 +4,7 @@ import React from 'react';
 const ExperiencePage = () => {
   const experiences = [
     {
-      id: 1,
+      id: 3,
       company: 'Hong Kong and Shanghai Banking Corporation Limited(HSBC).',
       position: 'Customer Solutions Representative',
       location: 'Sri Lanka',
@@ -20,7 +20,7 @@ const ExperiencePage = () => {
       description: 'Developed responsive web applications using React and TypeScript. Collaborated with UX/UI designers to implement pixel-perfect designs. Optimized application performance and implemented automated testing, reducing bugs by 30%.'
     },
     {
-      id: 3,
+      id: 1,
       company: 'StartUp Ventures',
       position: 'Junior Developer',
       location: 'Austin, TX',
