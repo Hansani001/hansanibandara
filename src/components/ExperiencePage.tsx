@@ -5,11 +5,11 @@ const ExperiencePage = () => {
   const experiences = [
     {
       id: 1,
-      company: 'Tech Innovators Inc.',
-      position: 'Senior Full Stack Developer',
-      location: 'San Francisco, CA',
-      period: 'Jan 2022 - Present',
-      description: 'Led development of scalable web applications using React, Node.js, and AWS. Implemented microservices architecture, improving system performance by 40%. Mentored junior developers and collaborated with cross-functional teams to deliver high-quality products.'
+      company: 'Hong Kong and Shanghai Banking Corporation Limited(HSBC).',
+      position: 'Customer Solutions Representative',
+      location: 'Sri Lanka',
+      period: 'Oct 2021  - Sep 2022',
+      description: 'Skilled in CRM systems and customer service tools, with experience handling inquiries, resolving issues, and ensuring client satisfaction. Managed underwriting service activities efficiently and responded to queries promptly. Strong communicator with proven problem-solving abilities and a customer-focused mindset.'
     },
     {
       id: 2,
