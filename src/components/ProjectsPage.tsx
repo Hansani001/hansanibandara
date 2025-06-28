@@ -7,7 +7,7 @@ const ProjectsPage = () => {
       id: 1,
       name: 'AI-Driven Passenger Tracking, Demand Forecasting,and Urban Traffic Optimization App',
       description: 'Developing a scalable fleet management dashboard using Python, React. Integrated AI/ML models for passenger demand forecasting and predictive maintenance. Focused on modular, flexible architecture to support future integrations.',
-      technologies: ['React', 'Node.js', 'MongoDB', ' AI/ML models', 'Python'],
+      technologies/skills: ['React', 'Node.js', 'MongoDB', ' AI/ML models', 'Python'],
       timeline: '2024 Nov - Present',
       purpose: 'University Research ',
       status: 'In Progress'
@@ -16,7 +16,7 @@ const ProjectsPage = () => {
       id: 2,
       name: 'Spa Ceylon Rewards App',
       description: 'A collaborative project management tool with real-time updates, file sharing, and team communication features.',
-      technologies: ['React', 'Firebase'],
+      technologies/skills: ['React', 'Firebase'],
       timeline: '2025 Feb - Present',
       purpose: 'Company Project',
       status: 'In Progress'
@@ -25,7 +25,7 @@ const ProjectsPage = () => {
       id: 3,
       name: 'Analytics Dashboard',
       description: 'A comprehensive business intelligence dashboard with data visualization, reporting, and predictive analytics.',
-      technologies: ['Vue.js', 'Python', 'PostgreSQL', 'Chart.js', 'Docker'],
+      technologies/skills: ['Vue.js', 'Python', 'PostgreSQL', 'Chart.js', 'Docker'],
       timeline: '4 months',
       purpose: 'Company Project',
       status: 'In Progress'
@@ -34,7 +34,7 @@ const ProjectsPage = () => {
       id: 4,
       name: 'Weather App',
       description: 'A responsive weather application with location-based forecasts, interactive maps, and weather alerts.',
-      technologies: ['JavaScript', 'HTML5', 'CSS3', 'Weather API'],
+      technologies/skills: ['JavaScript', 'HTML5', 'CSS3', 'Weather API'],
       timeline: '2 weeks',
       purpose: 'Learning Project',
       status: 'Completed'
@@ -82,9 +82,9 @@ const ProjectsPage = () => {
                 
                 <div className="space-y-3">
                   <div>
-                    <h4 className="text-sm font-semibold text-gray-400 mb-2">Technologies Used:</h4>
+                    <h4 className="text-sm font-semibold text-gray-400 mb-2">Technologies/Skills Used:</h4>
                     <div className="flex flex-wrap gap-2">
-                      {project.technologies.map((tech, index) => (
+                      {project.technologies/skills.map((tech, index) => (
                         <span
                           key={index}
                           className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-sm font-medium hover:bg-blue-600/30 transition-colors"
