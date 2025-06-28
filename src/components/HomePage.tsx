@@ -20,9 +20,8 @@ const HomePage = () => {
             </div>
             
             <p className="text-lg text-gray-400 leading-relaxed max-w-2xl">
-              Passionate software developer with expertise in modern web technologies. 
-              I create innovative solutions that bridge the gap between design and functionality, 
-              delivering exceptional user experiences through clean, efficient code.
+              Final year undergraduate at SLIIT,majoring in Information Systems Engineering. eager to gain hands-on experience and apply my skills to real-world challenges.
+              Passionate about exploring project management while leveraging strong analytical and problem solving abilities. Proven track record of quickly learning new technologies and adapting to dynamic environments. 
             </p>
             
             {/* Contact Details */}
