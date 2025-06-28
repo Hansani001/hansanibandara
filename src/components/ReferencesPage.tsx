@@ -24,17 +24,6 @@ const ReferencesPage = () => {
       relationship: 'Team Lead',
       workPeriod: '2020 - 2021'
     },
-
-      {
-      id: 3,
-      name: 'Michael Chen',
-      designation: 'Lead Frontend Developer',
-      company: 'Digital Solutions Corp',
-      email: 'michael.chen@digitalsolutions.com',
-      phone: '+1 (555) 234-5678',
-      relationship: 'Team Lead',
-      workPeriod: '2020 - 2021'
-    },
     
   ];
 
