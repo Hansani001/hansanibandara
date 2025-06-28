@@ -7,12 +7,12 @@ const ReferencesPage = () => {
     {
       id: 1,
       name: 'Dasuni Nawinna',
-      designation: 'Senior Engineering Manager',
-      company: 'Department of Computer Systems Engineering.',
-      email: 'sarah.johnson@techinnovators.com',
-      phone: '+1 (555) 123-4567',
-      relationship: 'Direct Supervisor',
-      workPeriod: '2022 - Present'
+      designation: 'Assistant Professor ,Department of Computer Systems Engineering',
+      company: 'Sri Lanka Institute of Information Technology.',
+      email: 'dasuni.n@sliit.lk',
+      phone: '+94773504553',
+      relationship: 'lecturer',
+
     },
     {
       id: 2,
