@@ -17,9 +17,7 @@ const ExperiencePage = () => {
       position: 'Intern, Project Management',
       location: 'Sri Lanka',
       period: 'Jan 2024 - July 2024',
-      description: 'Gained hands-on experience in project management by supporting both the Millennium Technology Platform (MTP) and Development Infrastructure teams. Assisted project managers across all SDLC phases, contributing to planning, implementation, and monitoring. Maintained project documentation including burn down charts, Power BI dashboards, and status reports.
-
-Coordinated with testers for smooth infrastructure rollouts and used Jira for clarity code and release tracking. Facilitated agile ceremonies—Daily Scrums, Sprint Planning, Reviews, and Retrospectives—and documented meetings using Confluence with clear agendas and action items. Actively contributed to process improvement efforts, enhancing project efficiency and execution.'
+      description: 'Gained hands-on experience in project management by supporting both the Millennium Technology Platform (MTP) and Development Infrastructure teams. Assisted project managers across all SDLC phases, contributing to planning, implementation, and monitoring. Maintained project documentation including burn down charts, Power BI dashboards, and status reports.Coordinated with testers for smooth infrastructure rollouts and used Jira for clarity code and release tracking. Facilitated agile ceremonies—Daily Scrums, Sprint Planning, Reviews, and Retrospectives—and documented meetings using Confluence with clear agendas and action items. Actively contributed to process improvement efforts, enhancing project efficiency and execution.'
     },
     {
       id: 3,
