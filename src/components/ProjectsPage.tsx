@@ -5,12 +5,12 @@ const ProjectsPage = () => {
   const projects = [
     {
       id: 1,
-      name: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with payment integration, inventory management, and real-time notifications.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe API', 'Socket.io'],
-      timeline: '6 months',
-      purpose: 'University Final Project',
-      status: 'Completed'
+      name: ' TrackiGo: AI-Driven Passenger Tracking, Demand Forecasting,and Urban Traffic Optimization App',
+      description: 'Developed a scalable fleet management dashboard using Python, React, and MySQL. Integrated AI/ML models for passenger demand forecasting and predictive maintenance. Focused on modular, flexible architecture to support future integrations.',
+      technologies: ['React', 'Node.js', 'MongoDB', ' AI/ML models', 'Python'],
+      timeline: '2024 November - Present',
+      purpose: 'University Research ',
+      status: 'In Progress'
     },
     {
       id: 2,
