@@ -25,7 +25,7 @@ const ProjectsPage = () => {
       id: 3,
       name: 'Analytics Dashboard',
       description: 'A comprehensive business intelligence dashboard with data visualization, reporting, and predictive analytics.',
-      technologies': ['Vue.js', 'Python', 'PostgreSQL', 'Chart.js', 'Docker'],
+      technologies: ['Vue.js', 'Python', 'PostgreSQL', 'Chart.js', 'Docker'],
       timeline: '4 months',
       purpose: 'Company Project',
       status: 'In Progress'
