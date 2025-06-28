@@ -4,7 +4,7 @@ import React from 'react';
 const ExperiencePage = () => {
   const experiences = [
     {
-      id: 3,
+      id: 1,
       company: 'Hong Kong and Shanghai Banking Corporation Limited(HSBC).',
       position: 'Customer Solutions Representative',
       location: 'Sri Lanka',
@@ -20,12 +20,12 @@ const ExperiencePage = () => {
       description: 'Developed responsive web applications using React and TypeScript. Collaborated with UX/UI designers to implement pixel-perfect designs. Optimized application performance and implemented automated testing, reducing bugs by 30%.'
     },
     {
-      id: 1,
-      company: 'StartUp Ventures',
-      position: 'Junior Developer',
-      location: 'Austin, TX',
-      period: 'Aug 2019 - May 2020',
-      description: 'Built and maintained web applications using JavaScript, HTML, and CSS. Worked closely with senior developers to learn best practices. Contributed to the development of an e-commerce platform serving 10,000+ users.'
+      id: 3,
+      company: 'Hong Kong and Shanghai Banking Corporation Limited(HSBC).',
+      position: 'Customer Solutions Representative',
+      location: 'Sri Lanka',
+      period: 'Oct 2021  - Sep 2022',
+      'Skilled in CRM systems and customer service tools, with experience handling inquiries, resolving issues, and ensuring client satisfaction. Managed underwriting service activities efficiently and responded to queries promptly. Strong communicator with proven problem-solving abilities and a customer-focused mindset.'
     }
   ];
 
