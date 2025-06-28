@@ -12,10 +12,10 @@ const HomePage = () => {
             <div className="space-y-4">
               <h1 className="text-5xl md:text-7xl font-bold">
                 Hi, I'm{' '}
-                <span className="gradient-text">John Doe</span>
+                <span className="gradient-text">Hansani Bandara </span>
               </h1>
               <h2 className="text-2xl md:text-3xl text-gray-300">
-                Full Stack Developer
+                Final Year Information Systems Engineering Undergraduate
               </h2>
             </div>
             
@@ -29,7 +29,7 @@ const HomePage = () => {
               <h3 className="text-xl font-semibold text-blue-400">Get In Touch</h3>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="https://linkedin.com/in/johndoe"
+                  href="https://www.linkedin.com/in/hansanibandara/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 glass-card p-4 hover:bg-blue-600/20 transition-all duration-300 hover:scale-105 glow-effect"
@@ -39,11 +39,11 @@ const HomePage = () => {
                 </a>
                 
                 <a
-                  href="mailto:john.doe@email.com"
+                  href="mailto:hansanibandara01@gmail.com"
                   className="flex items-center gap-3 glass-card p-4 hover:bg-blue-600/20 transition-all duration-300 hover:scale-105 glow-effect"
                 >
                   <Mail className="w-5 h-5 text-blue-400" />
-                  <span>john.doe@email.com</span>
+                  <span> hansanibandara01@gmail.com </span>
                 </a>
                 
                 <a
@@ -51,7 +51,7 @@ const HomePage = () => {
                   className="flex items-center gap-3 glass-card p-4 hover:bg-blue-600/20 transition-all duration-300 hover:scale-105 glow-effect"
                 >
                   <Phone className="w-5 h-5 text-blue-400" />
-                  <span>+1 (234) 567-890</span>
+                  <span> +94715833696 </span>
                 </a>
               </div>
             </div>
