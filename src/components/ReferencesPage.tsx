@@ -8,8 +8,7 @@ const ReferencesPage = () => {
       id: 1,
       name: 'Dasuni Nawinna',
       designation: 'Senior Engineering Manager',
-      company: ' Department of Computer Systems
- Engineering.',
+      company: 'Department of Computer Systems Engineering.',
       email: 'sarah.johnson@techinnovators.com',
       phone: '+1 (555) 123-4567',
       relationship: 'Direct Supervisor',
