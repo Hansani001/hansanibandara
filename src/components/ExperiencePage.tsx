@@ -5,11 +5,11 @@ const ExperiencePage = () => {
   const experiences = [
     {
       id: 1,
-      company: 'Hong Kong and Shanghai Banking Corporation Limited(HSBC).',
-      position: 'Customer Solutions Representative',
+      company: 'Spa Ceylon Ayurveda',
+      position: 'Junior Executive,Digital Transformation.',
       location: 'Sri Lanka',
-      period: 'Oct 2021  - Sep 2022',
-      description: 'Skilled in CRM systems and customer service tools, with experience handling inquiries, resolving issues, and ensuring client satisfaction. Managed underwriting service activities efficiently and responded to queries promptly. Strong communicator with proven problem-solving abilities and a customer-focused mindset.'
+      period: 'Nov 2024-Present',
+      description: 'Coordinated digital transformation projects by collaborating with cross-functional teams and brand partners. Gathered technical and functional requirements, analyzed data to support decision-making, and identified opportunities for process improvement. Assisted in documenting solutions, training staff, and providing technical support for new digital systems.'
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const ExperiencePage = () => {
     },
     {
       id: 3,
-      company: 'Hong Kong and Shanghai Banking Corporation Limited(HSBC).',
+      company: 'Hong Kong and Shanghai Banking Corporation Limited.',
       position: 'Customer Solutions Representative',
       location: 'Sri Lanka',
       period: 'Oct 2021  - Sep 2022',
