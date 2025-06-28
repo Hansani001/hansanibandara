@@ -6,20 +6,20 @@ const ProjectsPage = () => {
     {
       id: 1,
       name: 'AI-Driven Passenger Tracking, Demand Forecasting,and Urban Traffic Optimization App',
-      description: 'Developed a scalable fleet management dashboard using Python, React. Integrated AI/ML models for passenger demand forecasting and predictive maintenance. Focused on modular, flexible architecture to support future integrations.',
+      description: 'Developing a scalable fleet management dashboard using Python, React. Integrated AI/ML models for passenger demand forecasting and predictive maintenance. Focused on modular, flexible architecture to support future integrations.',
       technologies: ['React', 'Node.js', 'MongoDB', ' AI/ML models', 'Python'],
-      timeline: '2024 November - Present',
+      timeline: '2024 Nov - Present',
       purpose: 'University Research ',
       status: 'In Progress'
     },
     {
       id: 2,
-      name: 'Task Management App',
+      name: 'Spa Ceylon Rewards App',
       description: 'A collaborative project management tool with real-time updates, file sharing, and team communication features.',
-      technologies: ['React', 'Firebase', 'Material-UI', 'Redux'],
-      timeline: '3 months',
-      purpose: 'Personal Project',
-      status: 'Completed'
+      technologies: ['React', 'Firebase'],
+      timeline: '2025 Feb - Present',
+      purpose: 'Company Project',
+      status: 'In Progress'
     },
     {
       id: 3,
