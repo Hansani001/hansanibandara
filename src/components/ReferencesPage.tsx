@@ -7,11 +7,10 @@ const ReferencesPage = () => {
     {
       id: 1,
       name: 'Dasuni Nawinna',
-      designation: 'Assistant Professor ,Department of Computer Systems Engineering',
+      designation: 'Assistant Professor,Department of Computer Systems Engineering',
       company: 'Sri Lanka Institute of Information Technology.',
       email: 'dasuni.n@sliit.lk',
       phone: '+94773504553',
-      relationship: 'lecturer',
 
     },
     {
@@ -21,8 +20,7 @@ const ReferencesPage = () => {
       company: 'Digital Solutions Corp',
       email: 'michael.chen@digitalsolutions.com',
       phone: '+1 (555) 234-5678',
-      relationship: 'Team Lead',
-      workPeriod: '2020 - 2021'
+    
     },
     
   ];
