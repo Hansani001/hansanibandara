@@ -5,8 +5,8 @@ const ProjectsPage = () => {
   const projects = [
     {
       id: 1,
-      name: ' TrackiGo: AI-Driven Passenger Tracking, Demand Forecasting,and Urban Traffic Optimization App',
-      description: 'Developed a scalable fleet management dashboard using Python, React, and MySQL. Integrated AI/ML models for passenger demand forecasting and predictive maintenance. Focused on modular, flexible architecture to support future integrations.',
+      name: 'AI-Driven Passenger Tracking, Demand Forecasting,and Urban Traffic Optimization App',
+      description: 'Developed a scalable fleet management dashboard using Python, React. Integrated AI/ML models for passenger demand forecasting and predictive maintenance. Focused on modular, flexible architecture to support future integrations.',
       technologies: ['React', 'Node.js', 'MongoDB', ' AI/ML models', 'Python'],
       timeline: '2024 November - Present',
       purpose: 'University Research ',
