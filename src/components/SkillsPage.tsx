@@ -3,17 +3,17 @@ import React from 'react';
 
 const SkillsPage = () => {
   const technicalSkills = [
-    'Java', 'Ubuntu', 'SQLs', 'Python', 'C++', 'HTML/CSS','MongoDB'
+    'Java', 'Ubuntu', 'SQLs', 'Python', 'C++', 'HTML/CSS','MongoDB','Javascript','Postman'
   ];
 
   const softSkills = [
     'Problem Solving', 'Team Collaboration', 'Communication', 'Time Management',
-    'Critical Thinking', 'Leadership', 'Project Management', 'Analytical Thinking', 'Attention to Detail'
+    'Critical Thinking', 'Leadership', 'People Handling', 'Analytical Thinking', 'Attention to Detail'
   ];
 
   const tools = [
-    'VS Code', 'IntelliJ IDEA', 'Postman', 'Docker', 'AWS', 'Firebase',
-    'Figma', 'Jira', 'Slack', 'GitHub', 'MySQL Workbench'
+  'MS Project Management','Power BI ' ,' Jira Ticket Management system', 'IBM Rational Architect' 'VS Code', 'IntelliJ IDEA','Notion'
+    'Figma', 'Slack', 'GitHub'
   ];
 
   const SkillCard = ({ title, skills, icon }: { title: string; skills: string[]; icon: string }) => (
