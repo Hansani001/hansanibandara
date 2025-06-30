@@ -3,12 +3,12 @@ import React from 'react';
 
 const SkillsPage = () => {
   const technicalSkills = [
-    'Java', 'Ubuntu', 'SQLs', 'Python', 'C++', 'HTML/CSS','MongoDB','Javascript','Postman'
+    'Java', 'Ubuntu', 'SQLs', 'Python', 'C++', 'HTML/CSS','MongoDB','Javascript','Postman','React'
   ];
 
   const softSkills = [
     'Problem Solving', 'Team Collaboration', 'Communication', 'Time Management',
-    'Critical Thinking', 'Leadership', 'People Handling', 'Analytical Thinking', 'Attention to Detail'
+    'Critical Thinking', 'Leadership', 'People Handling', 'Analytical Thinking', 'Attention to Detail','Self-Motivated '
   ];
 
   const tools = [
