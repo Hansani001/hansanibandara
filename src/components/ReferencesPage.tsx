@@ -15,11 +15,11 @@ const ReferencesPage = () => {
     },
     {
       id: 2,
-      name: 'Michael Chen',
-      designation: 'Lead Frontend Developer',
-      company: 'Digital Solutions Corp',
-      email: 'michael.chen@digitalsolutions.com',
-      phone: '+1 (555) 234-5678',
+      name: ' Prasanna Karunarathna',
+      designation: 'Head Of Business Operation & Change Management',
+      company: 'London Stock Exchange Group, Sri Lanka',
+      email: 'prasanna.karunarathna@lseg.com',
+      phone: '+94777660944',
     
     },
     
