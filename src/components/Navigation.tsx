@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 
 const Navigation = () => {
@@ -40,7 +39,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4 sm:px-6 py-3 sm:py-4">
         <div className="flex justify-between items-center">
           <div className="text-xl sm:text-2xl font-bold gradient-text">
-            Portfolio
+            Hansani
           </div>
           
           {/* Desktop Navigation */}
