@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Linkedin, Mail, Phone } from 'lucide-react';
+import testDp from "./test-dp.png";
 
 const HomePage = () => {
   return (
@@ -62,7 +63,7 @@ const HomePage = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-full overflow-hidden glass-card p-2 floating-animation pulse-glow">
                 <img
-                  src="./test-dp.png"
+                  src={testDp}
                   alt="Profile"
                   className="w-full h-full object-cover rounded-full"
                 />
