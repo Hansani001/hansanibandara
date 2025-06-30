@@ -62,7 +62,7 @@ const HomePage = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-full overflow-hidden glass-card p-2 floating-animation pulse-glow">
                 <img
-                  src="../../test-dp.png"
+                  src="/test-dp.png"
                   alt="Profile"
                   className="w-full h-full object-cover rounded-full"
                 />
