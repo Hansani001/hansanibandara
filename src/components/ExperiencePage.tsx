@@ -50,19 +50,19 @@ const ExperiencePage = () => {
                 </div>
                 
                 {/* Content Card */}
-                <div className="flex-1 glass-card p-6 hover:bg-white/15 transition-all duration-300 hover:scale-[1.02] glow-effect">
+                <div className="flex-1 glass-card p-6 hover:bg-white/25 dark:hover:bg-white/15 transition-all duration-300 hover:scale-[1.02] glow-effect">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                     <div>
-                      <h3 className="text-xl font-bold text-blue-400">{exp.position}</h3>
-                      <h4 className="text-lg font-semibold text-white">{exp.company}</h4>
+                      <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400">{exp.position}</h3>
+                      <h4 className="text-lg font-semibold text-gray-900 dark:text-white">{exp.company}</h4>
                     </div>
-                    <div className="text-sm text-gray-400 mt-2 md:mt-0 md:text-right">
+                    <div className="text-sm text-gray-600 dark:text-gray-400 mt-2 md:mt-0 md:text-right">
                       <div className="font-medium">{exp.period}</div>
                       <div>{exp.location}</div>
                     </div>
                   </div>
                   
-                  <p className="text-gray-300 leading-relaxed">{exp.description}</p>
+                  <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{exp.description}</p>
                 </div>
               </div>
             ))}

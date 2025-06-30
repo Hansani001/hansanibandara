@@ -42,17 +42,17 @@ const ProjectsPage = () => {
   ];
 
   const getStatusColor = (status: string) => {
-    return status === 'Completed' ? 'text-green-400' : 'text-yellow-400';
+    return status === 'Completed' ? 'text-green-500 dark:text-green-400' : 'text-yellow-600 dark:text-yellow-400';
   };
 
   const getPurposeColor = (purpose: string) => {
     const colors = {
-      'University Final Project': 'bg-purple-600/20 text-purple-400',
-      'Personal Project': 'bg-blue-600/20 text-blue-400',
-      'Company Project': 'bg-green-600/20 text-green-400',
-      'Learning Project': 'bg-orange-600/20 text-orange-400'
+      'University Research ': 'bg-purple-200 dark:bg-purple-600/20 text-purple-800 dark:text-purple-400',
+      'Personal Project': 'bg-blue-200 dark:bg-blue-600/20 text-blue-800 dark:text-blue-400',
+      'Company Project': 'bg-green-200 dark:bg-green-600/20 text-green-800 dark:text-green-400',
+      'Learning Project': 'bg-orange-200 dark:bg-orange-600/20 text-orange-800 dark:text-orange-400'
     };
-    return colors[purpose as keyof typeof colors] || 'bg-gray-600/20 text-gray-400';
+    return colors[purpose as keyof typeof colors] || 'bg-gray-200 dark:bg-gray-600/20 text-gray-800 dark:text-gray-400';
   };
 
   return (
@@ -64,11 +64,11 @@ const ProjectsPage = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="glass-card p-6 hover:bg-white/15 transition-all duration-300 hover:scale-[1.02] glow-effect group"
+              className="glass-card p-6 hover:bg-white/25 dark:hover:bg-white/15 transition-all duration-300 hover:scale-[1.02] glow-effect group"
             >
               <div className="space-y-4">
                 <div className="flex items-start justify-between">
-                  <h3 className="text-xl font-bold text-blue-400 group-hover:text-blue-300 transition-colors">
+                  <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400 group-hover:text-blue-700 dark:group-hover:text-blue-300 transition-colors">
                     {project.name}
                   </h3>
                   <span className={`text-sm font-medium ${getStatusColor(project.status)}`}>
@@ -76,18 +76,18 @@ const ProjectsPage = () => {
                   </span>
                 </div>
                 
-                <p className="text-gray-300 leading-relaxed">
+                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
                   {project.description}
                 </p>
                 
                 <div className="space-y-3">
                   <div>
-                    <h4 className="text-sm font-semibold text-gray-400 mb-2">Technologies Used:</h4>
+                    <h4 className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-2">Technologies Used:</h4>
                     <div className="flex flex-wrap gap-2">
                       {project.technologies.map((tech, index) => (
                         <span
                           key={index}
-                          className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-sm font-medium hover:bg-blue-600/30 transition-colors"
+                          className="px-3 py-1 bg-blue-200 dark:bg-blue-600/20 text-blue-800 dark:text-blue-400 rounded-full text-sm font-medium hover:bg-blue-300 dark:hover:bg-blue-600/30 transition-colors"
                         >
                           {tech}
                         </span>
@@ -97,7 +97,7 @@ const ProjectsPage = () => {
                   
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-4">
-                      <span className="text-sm text-gray-400">
+                      <span className="text-sm text-gray-600 dark:text-gray-400">
                         <span className="font-medium">Timeline:</span> {project.timeline}
                       </span>
                     </div>
