@@ -7,6 +7,7 @@ import SkillsPage from '../components/SkillsPage';
 import ProjectsPage from '../components/ProjectsPage';
 import EducationPage from '../components/EducationPage';
 import ReferencesPage from '../components/ReferencesPage';
+import ThemeToggle from '../components/ThemeToggle';
 import {
   Carousel,
   CarouselContent,
@@ -17,6 +18,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Navigation />
+      <ThemeToggle />
       
       {/* Desktop View - Vertical scrolling */}
       <div className="hidden md:block">

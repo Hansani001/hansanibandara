@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 
 const Navigation = () => {
@@ -49,7 +50,7 @@ const Navigation = () => {
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
                 className={`nav-link ${
-                  activeSection === item.id ? 'text-blue-400' : ''
+                  activeSection === item.id ? 'text-blue-600 dark:text-blue-400' : ''
                 }`}
               >
                 {item.label}
@@ -60,7 +61,7 @@ const Navigation = () => {
           {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button 
-              className="text-white hover:text-blue-400 transition-colors p-2"
+              className="text-gray-700 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors p-2"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -76,14 +77,14 @@ const Navigation = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-white/10">
+          <div className="md:hidden mt-4 pb-4 border-t border-gray-200/30 dark:border-white/10">
             <div className="flex flex-col space-y-3 pt-4">
               {navItems.map((item) => (
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
                   className={`nav-link text-left ${
-                    activeSection === item.id ? 'text-blue-400' : ''
+                    activeSection === item.id ? 'text-blue-600 dark:text-blue-400' : ''
                   }`}
                 >
                   {item.label}
