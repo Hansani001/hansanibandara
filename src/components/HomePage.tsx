@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Linkedin, Mail, Phone } from 'lucide-react';
-import profilePicture from "./profile-picture.JPG";
+import profilePicture from "./profile-picture.png";
 
 const HomePage = () => {
   return (
