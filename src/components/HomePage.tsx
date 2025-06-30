@@ -1,22 +1,15 @@
-
 import React from 'react';
 import { Linkedin, Mail, Phone } from 'lucide-react';
 import profilePicture from "./profile-picture.png";
-
 const HomePage = () => {
-  return (
-    <section id="home" className="min-h-screen flex items-center justify-center px-4 sm:px-6 pt-20 pb-8">
+  return <section id="home" className="min-h-screen flex items-center justify-center px-4 sm:px-6 pt-20 pb-8">
       <div className="container mx-auto max-w-6xl">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Profile Image - Mobile First */}
           <div className="flex justify-center lg:justify-end order-1 lg:order-2">
             <div className="relative">
               <div className="w-60 sm:w-72 lg:w-80 h-60 sm:h-72 lg:h-80 rounded-full overflow-hidden glass-card p-2 floating-animation pulse-glow">
-                <img
-                  src={profilePicture}
-                  alt="Profile"
-                  className="w-full h-full object-cover rounded-full"
-                />
+                <img src={profilePicture} alt="Profile" className="w-full h-full object-cover rounded-full" />
               </div>
               
               {/* Decorative Elements */}
@@ -30,7 +23,7 @@ const HomePage = () => {
             <div className="space-y-3 sm:space-y-4">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold leading-tight text-gray-900 dark:text-white">
                 Hi, I'm{' '}
-                <span className="gradient-text block sm:inline"> Hansani Bandara </span>
+                <span className="gradient-text block sm:inline">Hansani </span>
               </h1>
               <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-600 dark:text-gray-300">
                 Final Year Information Systems Engineering Undergraduate
@@ -46,28 +39,17 @@ const HomePage = () => {
             <div className="space-y-4 sm:space-y-6">
               <h3 className="text-lg sm:text-xl font-semibold text-blue-600 dark:text-blue-400">Get In Touch</h3>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                <a
-                  href="https://www.linkedin.com/in/hansanibandara/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center sm:justify-start gap-3 glass-card p-3 sm:p-4 hover:bg-blue-600/20 dark:hover:bg-blue-600/20 transition-all duration-300 hover:scale-105 glow-effect text-sm sm:text-base text-gray-700 dark:text-gray-200"
-                >
+                <a href="https://www.linkedin.com/in/hansanibandara/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center sm:justify-start gap-3 glass-card p-3 sm:p-4 hover:bg-blue-600/20 dark:hover:bg-blue-600/20 transition-all duration-300 hover:scale-105 glow-effect text-sm sm:text-base text-gray-700 dark:text-gray-200">
                   <Linkedin className="w-4 sm:w-5 h-4 sm:h-5 text-blue-600 dark:text-blue-400 flex-shrink-0" />
                   <span>LinkedIn</span>
                 </a>
                 
-                <a
-                  href="mailto:hansanibandara01@gmail.com"
-                  className="flex items-center justify-center sm:justify-start gap-3 glass-card p-3 sm:p-4 hover:bg-blue-600/20 dark:hover:bg-blue-600/20 transition-all duration-300 hover:scale-105 glow-effect text-sm sm:text-base text-gray-700 dark:text-gray-200"
-                >
+                <a href="mailto:hansanibandara01@gmail.com" className="flex items-center justify-center sm:justify-start gap-3 glass-card p-3 sm:p-4 hover:bg-blue-600/20 dark:hover:bg-blue-600/20 transition-all duration-300 hover:scale-105 glow-effect text-sm sm:text-base text-gray-700 dark:text-gray-200">
                   <Mail className="w-4 sm:w-5 h-4 sm:h-5 text-blue-600 dark:text-blue-400 flex-shrink-0" />
                   <span className="truncate"> hansibandara01@gmail.com </span>
                 </a>
                 
-                <a
-                  href="tel:+94715833696"
-                  className="flex items-center justify-center sm:justify-start gap-3 glass-card p-3 sm:p-4 hover:bg-blue-600/20 dark:hover:bg-blue-600/20 transition-all duration-300 hover:scale-105 glow-effect text-sm sm:text-base text-gray-700 dark:text-gray-200"
-                >
+                <a href="tel:+94715833696" className="flex items-center justify-center sm:justify-start gap-3 glass-card p-3 sm:p-4 hover:bg-blue-600/20 dark:hover:bg-blue-600/20 transition-all duration-300 hover:scale-105 glow-effect text-sm sm:text-base text-gray-700 dark:text-gray-200">
                   <Phone className="w-4 sm:w-5 h-4 sm:h-5 text-blue-600 dark:text-blue-400 flex-shrink-0" />
                   <span> +94715833696 </span>
                 </a>
@@ -76,8 +58,6 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HomePage;
