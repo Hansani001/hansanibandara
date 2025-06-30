@@ -3,8 +3,7 @@ import React from 'react';
 
 const SkillsPage = () => {
   const technicalSkills = [
-    'JavaScript', 'TypeScript', 'React', 'Node.js', 'Python', 'Java', 
-    'HTML/CSS', 'SQL', 'MongoDB', 'Express.js', 'Git', 'REST APIs'
+    'Java', 'Ubuntu', 'SQLs', 'Python', 'C++', 'HTML/CSS','MongoDB'
   ];
 
   const softSkills = [
