@@ -61,7 +61,7 @@ const HomePage = () => {
                   className="flex items-center justify-center sm:justify-start gap-3 glass-card p-3 sm:p-4 hover:bg-blue-600/20 transition-all duration-300 hover:scale-105 glow-effect text-sm sm:text-base"
                 >
                   <Mail className="w-4 sm:w-5 h-4 sm:h-5 text-blue-400 flex-shrink-0" />
-                  <span className="truncate"> hansanibandara01@gmail.com </span>
+                  <span className="truncate"> hansibandara01@gmail.com </span>
                 </a>
                 
                 <a
