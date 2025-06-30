@@ -9,13 +9,12 @@ const SkillsPage = () => {
 
   const softSkills = [
     'Problem Solving', 'Team Collaboration', 'Communication', 'Time Management',
-    'Critical Thinking', 'Adaptability', 'Leadership', 'Project Management',
-    'Analytical Thinking', 'Attention to Detail'
+    'Critical Thinking', 'Leadership', 'Project Management', 'Analytical Thinking', 'Attention to Detail'
   ];
 
   const tools = [
     'VS Code', 'IntelliJ IDEA', 'Postman', 'Docker', 'AWS', 'Firebase',
-    'Figma', 'Jira', 'Slack', 'GitHub', 'MySQL Workbench', 'Photoshop'
+    'Figma', 'Jira', 'Slack', 'GitHub', 'MySQL Workbench'
   ];
 
   const SkillCard = ({ title, skills, icon }: { title: string; skills: string[]; icon: string }) => (
