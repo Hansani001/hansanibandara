@@ -56,7 +56,7 @@ const EducationPage = () => {
                   </div>
                   
                   <div className="inline-block px-3 py-1 bg-blue-200 dark:bg-blue-600/20 text-blue-800 dark:text-blue-400 rounded-full text-sm font-medium">
-                    {item.degree.includes('Certified') || item.degree.includes('Bootcamp') ? 'Certificate' : 'Degree'}
+                    {item.id === 2 ? 'School' : (item.degree.includes('Certified') || item.degree.includes('Bootcamp') ? 'Certificate' : 'Degree')}
                   </div>
                 </div>
               </div>
