@@ -5,40 +5,20 @@ const EducationPage = () => {
   const education = [
     {
       id: 1,
-      degree: 'Bachelor of Science in Information System Engineering',
+      degree: 'Bachelor of Science in Information Systems Engineering',
       institution: 'Sri Lanka Institute Of Information Technology',
       year: '2021 - 2025',
       location: 'Colombo, Sri Lanka',
-      description: 'Graduated Magna Cum Laude with a focus on software engineering and web development. Completed coursework in algorithms, data structures, database systems, and software architecture.',
-      gpa: '3.8/4.0'
+      description: 'Information Technology (IT) Specialized in Information Systems Engineering (ISE) degree',
+      
     },
     {
       id: 2,
-      degree: 'AWS Certified Solutions Architect',
-      institution: 'Amazon Web Services',
-      year: '2021',
-      location: 'Online Certification',
-      description: 'Professional certification demonstrating expertise in designing distributed systems on AWS. Covers security, scalability, and cost optimization best practices.',
-      gpa: null
-    },
-    {
-      id: 3,
-      degree: 'Full Stack Web Development Bootcamp',
-      institution: 'Tech Academy',
-      year: '2019',
-      location: 'San Francisco, CA',
-      description: 'Intensive 12-week program covering modern web development technologies including React, Node.js, MongoDB, and deployment strategies. Built 5 full-stack applications.',
-      gpa: null
-    },
-    {
-      id: 4,
-      degree: 'Google Cloud Professional Developer',
-      institution: 'Google Cloud Platform',
-      year: '2022',
-      location: 'Online Certification',
-      description: 'Certification validating skills in developing, deploying, and monitoring applications on Google Cloud Platform using best practices.',
-      gpa: null
+      degree: 'Musaeus College Colombo 07 ',
+      year: '2020 AL',
     }
+   
+  
   ];
 
   return (
