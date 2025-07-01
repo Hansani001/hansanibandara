@@ -15,6 +15,7 @@ const EducationPage = () => {
     {
       id: 2,
       degree: 'Musaeus College Colombo 07 ',
+      description: 'Advanced Level Examination & Ordinary Level Examination',
       year: '2020 AL',
     }
    
