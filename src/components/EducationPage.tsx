@@ -14,7 +14,7 @@ const EducationPage = () => {
     },
     {
       id: 2,
-      degree: 'Musaeus College Colombo 07 ',
+      School: 'Musaeus College Colombo 07 ',
       year: '2020 AL',
     }
    
