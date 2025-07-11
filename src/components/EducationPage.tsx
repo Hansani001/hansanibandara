@@ -5,7 +5,7 @@ const EducationPage = () => {
   const education = [
     {
       id: 1,
-      degree: 'Bachelor of Science in Information Systems Engineering',
+      degree: 'Bachelor of Science (Honours) in Information Systems Engineering',
       institution: 'Sri Lanka Institute Of Information Technology',
       year: '2021 - 2025',
       location: 'Colombo, Sri Lanka',
