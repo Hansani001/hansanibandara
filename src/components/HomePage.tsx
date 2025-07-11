@@ -26,7 +26,7 @@ const HomePage = () => {
                 <span className="gradient-text block sm:inline">Hansani </span>
               </h1>
               <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-600 dark:text-gray-300">
-                Final Year Information Systems Engineering Undergraduate
+                Project Wrangler by Day, Data Dreamweaver by Night 
               </h2>
             </div>
             
