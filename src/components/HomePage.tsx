@@ -44,7 +44,7 @@ const HomePage = () => {
                   <span>LinkedIn</span>
                 </a>
                 
-                <a href="mailto:hansanibandara01@gmail.com" className="flex items-center justify-center sm:justify-start gap-3 glass-card p-3 sm:p-4 hover:bg-blue-600/20 dark:hover:bg-blue-600/20 transition-all duration-300 hover:scale-105 glow-effect text-sm sm:text-base text-gray-700 dark:text-gray-200">
+                <a href="mailto:hansanisc@gmail.com" className="flex items-center justify-center sm:justify-start gap-3 glass-card p-3 sm:p-4 hover:bg-blue-600/20 dark:hover:bg-blue-600/20 transition-all duration-300 hover:scale-105 glow-effect text-sm sm:text-base text-gray-700 dark:text-gray-200">
                   <Mail className="w-4 sm:w-5 h-4 sm:h-5 text-blue-600 dark:text-blue-400 flex-shrink-0" />
                   <span className="truncate"> hansibandara01@gmail.com </span>
                 </a>
