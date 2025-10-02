@@ -20,7 +20,7 @@ const ProjectsPage = () => {
       timeline: '2025 Feb - 2025 August',
       purpose: 'Company Project',
       status: 'Completed',
-      demoLink: 'https://example.com'
+      demoLink: 'https://lk.spaceylon.com/pages/spa-ceylon-rewards'
     },
     {
       id: 3,
@@ -39,7 +39,7 @@ const ProjectsPage = () => {
       timeline: '2 weeks',
       purpose: 'Learning Project',
       status: 'Completed',
-      demoLink: 'https://example.com'
+      demoLink: 'https://bookspaceylon.com/'
     }
   ];
 
