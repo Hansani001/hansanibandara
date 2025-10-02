@@ -17,7 +17,7 @@ const ProjectsPage = () => {
       name: 'Revamping the Spa Ceylon Rewards App',
       description: 'As the key Digital Transformation and Technologies Lead for the project, I took ownership and led the full revamp of our existing loyalty app. Driving the initiative forward in close collaboration with my team, my lead, senior leadership, and other departments, I transformed it into a modern, data-driven platform aligned with our customer experience and retention goals. I reshaped the project’s direction and successfully delivered an integrated, performance-oriented solution..',
       technologies: ['Notion', 'Firebase'],
-      timeline: '2025 Feb - Present',
+      timeline: '2025 Feb - 2025 August',
       purpose: 'Company Project',
       status: 'Completed'
     },
