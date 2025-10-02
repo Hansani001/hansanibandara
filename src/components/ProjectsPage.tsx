@@ -33,11 +33,11 @@ const ProjectsPage = () => {
     },
     {
       id: 4,
-      name: 'Weather App',
-      description: 'A responsive weather application with location-based forecasts, interactive maps, and weather alerts.',
-      technologies: ['JavaScript', 'HTML5', 'CSS3', 'Weather API'],
-      timeline: '2 weeks',
-      purpose: 'Learning Project',
+      name: 'Rollout of the Spa Ceylon Spa Reservation System',
+      description: 'Led the design, development, and implementation of a fully integrated Spa Reservation System to streamline appointment booking, enhance customer experience, and optimize operational efficiency across Spa Ceylon outlets.',
+      technologies: ['Notion', 'microsoft project'],
+      timeline: '2024 November - 2025 September',
+      purpose: 'Company Project',
       status: 'Completed',
       demoLink: 'https://bookspaceylon.com/'
     }
