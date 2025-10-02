@@ -5,7 +5,7 @@ const ExperiencePage = () => {
   const experiences = [
     {
       id: 1,
-      company: 'Spa Ceylon Ayurveda',
+      company: 'Spa Ceylon Ayurveda Wellness',
       position: 'Junior Executive,Digital Transformation',
       location: 'Sri Lanka',
       period: 'Nov 2024 - Present',
