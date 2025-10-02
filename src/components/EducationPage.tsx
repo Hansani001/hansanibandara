@@ -10,16 +10,15 @@ const EducationPage = () => {
       year: '2021 - 2025',
       location: 'Colombo, Sri Lanka',
       description: 'Information Technology (IT) Specialized in Information Systems Engineering (ISE) degree',
-      
     },
     {
       id: 2,
-      degree: 'Musaeus College Colombo 07 ',
+      degree: 'Musaeus College Colombo 07',
+      institution: '',
       description: 'Advanced Level Examination',
       year: '2020 AL',
+      location: '',
     }
-   
-  
   ];
 
   return (
@@ -49,10 +48,7 @@ const EducationPage = () => {
                 <div className="space-y-3 md:text-right">
                   <div className="space-y-1">
                     <div className="text-blue-600 dark:text-blue-400 font-semibold">{item.year}</div>
-                    <div className="text-gray-600 dark:text-gray-400 text-sm">{item.location}</div>
-                    {item.gpa && (
-                      <div className="text-green-600 dark:text-green-400 font-medium">GPA: {item.gpa}</div>
-                    )}
+                    {item.location && <div className="text-gray-600 dark:text-gray-400 text-sm">{item.location}</div>}
                   </div>
                   
                   <div className="inline-block px-3 py-1 bg-blue-200 dark:bg-blue-600/20 text-blue-800 dark:text-blue-400 rounded-full text-sm font-medium">
