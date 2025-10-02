@@ -15,11 +15,12 @@ const ProjectsPage = () => {
     {
       id: 2,
       name: 'Revamping the Spa Ceylon Rewards App',
-      description: 'As the key Digital Transformation and Technologies Lead for the project, I took ownership and led the full revamp of our existing loyalty app. Driving the initiative forward in close collaboration with my team, my lead, senior leadership, and other departments, I transformed it into a modern, data-driven platform aligned with our customer experience and retention goals. I reshaped the project’s direction and successfully delivered an integrated, performance-oriented solution..',
+      description: 'As the key Digital Transformation and Technologies Lead for the project, I took ownership and led the full revamp of our existing loyalty app. Driving the initiative forward in close collaboration with my team, my lead, senior leadership, and other departments, I transformed it into a modern, data-driven platform aligned with our customer experience and retention goals. I reshaped the project direction and successfully delivered an integrated, performance-oriented solution.',
       technologies: ['Notion', 'Firebase'],
       timeline: '2025 Feb - 2025 August',
       purpose: 'Company Project',
-      status: 'Completed'
+      status: 'Completed',
+      demoLink: 'https://example.com'
     },
     {
       id: 3,
@@ -37,7 +38,8 @@ const ProjectsPage = () => {
       technologies: ['JavaScript', 'HTML5', 'CSS3', 'Weather API'],
       timeline: '2 weeks',
       purpose: 'Learning Project',
-      status: 'Completed'
+      status: 'Completed',
+      demoLink: 'https://example.com'
     }
   ];
 
@@ -105,6 +107,19 @@ const ProjectsPage = () => {
                       {project.purpose}
                     </span>
                   </div>
+                  
+                  {project.demoLink && (
+                    <div className="pt-2">
+                      <a
+                        href={project.demoLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center px-4 py-2 bg-blue-600 dark:bg-blue-500 text-white rounded-lg hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors text-sm font-medium"
+                      >
+                        View Demo →
+                      </a>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
