@@ -11,7 +11,7 @@ const EducationPage = () => {
       description:
         "Information Technology (IT) degree specialized in Information Systems Engineering (ISE).",
       activitiesAndSocieties: [
-        "Committee Member of Information Systems Engineering Student Community at SLIIT [2023 – 2024]",
+        "Committee Member of Information Systems Engineering Student Community [2023 – 2024]",
         "Active Member of Media Unit of Faculty of Computing [Content Writing]",
         "Active Member of Student Community of Faculty of Computing",
       ],
