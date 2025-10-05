@@ -10,6 +10,7 @@ const EducationPage = () => {
       year: '2021 - 2025',
       location: 'Colombo, Sri Lanka',
       description: 'Information Technology (IT) Specialized in Information Systems Engineering (ISE) degree',
+      activitiesAndSocieties: 'Member of IEEE Student Branch, Participated in hackathons and coding competitions',
     },
     {
       id: 2,
@@ -18,6 +19,8 @@ const EducationPage = () => {
       description: 'Advanced Level Examination',
       year: '2020 AL',
       location: '',
+      activitiesAndSocieties: 'Member of Science Club, Participated in inter-school competitions',
+      positionsHeld: 'Prefect, Captain of the Debating Team',
     }
   ];
 
@@ -43,6 +46,18 @@ const EducationPage = () => {
                   <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
                     {item.description}
                   </p>
+                  {item.activitiesAndSocieties && (
+                    <div className="mt-3">
+                      <h5 className="text-sm font-semibold text-gray-800 dark:text-gray-200 mb-1">Activities and societies:</h5>
+                      <p className="text-gray-600 dark:text-gray-400 text-sm">{item.activitiesAndSocieties}</p>
+                    </div>
+                  )}
+                  {item.positionsHeld && (
+                    <div className="mt-3">
+                      <h5 className="text-sm font-semibold text-gray-800 dark:text-gray-200 mb-1">Positions held:</h5>
+                      <p className="text-gray-600 dark:text-gray-400 text-sm">{item.positionsHeld}</p>
+                    </div>
+                  )}
                 </div>
                 
                 <div className="space-y-3 md:text-right">
