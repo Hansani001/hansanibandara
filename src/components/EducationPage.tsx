@@ -20,7 +20,8 @@ const EducationPage = () => {
       year: '2020 AL',
       location: '',
       activitiesAndSocieties: 'Member of Science Club, Participated in inter-school competitions',
-      positionsHeld: 'Prefect, Captain of the Debating Team',
+      positionsHeld: 'Editor Of School Newspaper (Myusara) of Musaeus College Colombo 07 [2019 - 2020]
+                      Main Organizer Of Drug Prevention of Musaeus College Colombo 07 [2018-2019]',
     }
   ];
 
