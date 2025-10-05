@@ -10,7 +10,8 @@ const EducationPage = () => {
       year: '2021 - 2025',
       location: 'Colombo, Sri Lanka',
       description: 'Information Technology (IT) Specialized in Information Systems Engineering (ISE) degree',
-      activitiesAndSocieties: 'Member of IEEE Student Branch, Participated in hackathons and coding competitions',
+      activitiesAndSocieties: 'Committee Member of Information Systems Engineering Student community at SLIIT  [2023 - 2024]','Active Member Of Media Unit of Faulty of computing 
+      [Content Writing]','Active Member Of Student Community of Faulty of computing'
     },
     {
       id: 2,
@@ -19,8 +20,8 @@ const EducationPage = () => {
       description: 'Advanced Level Examination',
       year: '2020 AL',
       location: '',
-      activitiesAndSocieties: 'Member of Science Club, Participated in inter-school competitions',
-      positionsHeld: 'Editor Of School Newspaper (Myusara) of Musaeus College Colombo 07 [2019 - 2020] , Main Organizer Of Drug Prevention of Musaeus College Colombo 07 [2018-2019]',
+      activitiesAndSocieties: 'Active Member Of Media Unita','Active Member Of Commerce And Bank Society' ,'Active Member of Buddhist Society',
+      positionsHeld: 'Editor Of School Newspaper (Myusara) ' , 'Main Organizer Of Drug Prevention Club ',
     }
   ];
 
