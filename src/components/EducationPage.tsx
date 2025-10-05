@@ -75,19 +75,6 @@ const EducationPage = () => {
                     </p>
                   )}
 
-                  {item.activitiesAndSocieties?.length > 0 && (
-                    <div className="mt-3">
-                      <h5 className="text-sm font-semibold text-gray-800 dark:text-gray-200 mb-1">
-                        Activities and societies:
-                      </h5>
-                      <ul className="text-gray-600 dark:text-gray-400 text-sm list-disc ml-5 space-y-1">
-                        {item.activitiesAndSocieties.map((act, i) => (
-                          <li key={i}>{act}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-
                   {item.positionsHeld?.length > 0 && (
                     <div className="mt-3">
                       <h5 className="text-sm font-semibold text-gray-800 dark:text-gray-200 mb-1">
@@ -96,6 +83,19 @@ const EducationPage = () => {
                       <ul className="text-gray-600 dark:text-gray-400 text-sm list-disc ml-5 space-y-1">
                         {item.positionsHeld.map((pos, i) => (
                           <li key={i}>{pos}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {item.activitiesAndSocieties?.length > 0 && (
+                    <div className="mt-3">
+                      <h5 className="text-sm font-semibold text-gray-800 dark:text-gray-200 mb-1">
+                        Activities and societies:
+                      </h5>
+                      <ul className="text-gray-600 dark:text-gray-400 text-sm list-disc ml-5 space-y-1">
+                        {item.activitiesAndSocieties.map((act, i) => (
+                          <li key={i}>{act}</li>
                         ))}
                       </ul>
                     </div>
