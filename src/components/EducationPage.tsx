@@ -6,7 +6,7 @@ const EducationPage = () => {
       id: 1,
       degree: "Bachelor of Science (Honours) in Information Systems Engineering",
       institution: "Sri Lanka Institute Of Information Technology (SLIIT)",
-      year: "2021 – 2025",
+      year: "2025",
       location: "Colombo, Sri Lanka",
       description:
         "Information Technology (IT) degree specialized in Information Systems Engineering (ISE).",
