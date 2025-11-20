@@ -8,9 +8,9 @@ const ProjectsPage = () => {
       name: 'AI-Driven Passenger Tracking, Demand Forecasting,and Urban Traffic Optimization App',
       description: 'Developing a scalable fleet management dashboard using Python, React. Integrated AI/ML models for passenger demand forecasting and predictive maintenance. Focused on modular, flexible architecture to support future integrations.',
       technologies: ['React', 'Node.js', 'MongoDB', ' AI/ML models', 'Python'],
-      timeline: '2024 Nov - Present',
+      timeline: '2024 Nov - 2025 Oct',
       purpose: 'University Research ',
-      status: 'In Progress'
+      status: 'Completed'
     },
     {
       id: 2,
