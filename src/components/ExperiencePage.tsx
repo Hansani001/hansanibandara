@@ -11,7 +11,7 @@ const ExperiencePage = () => {
       position: 'System Engineer - Information Technology',
       location: 'Sri Lanka',
       period: 'Nov 2025 - Present ',
-      description: 'Gained hands-on experience in project management by supporting both the Millennium Technology Platform (MTP) and Development Infrastructure teams. Assisted project managers across all SDLC phases, contributing to planning, implementation, and monitoring. Maintained project documentation including burn down charts, Power BI dashboards, and status reports.Coordinated with testers for smooth infrastructure rollouts and used Jira for clarity code and release tracking. Facilitated agile ceremonies—Daily Scrums, Sprint Planning, Reviews, and Retrospectives—and documented meetings using Confluence with clear agendas and action items. Actively contributed to process improvement efforts, enhancing project efficiency and execution.'
+      description: 'As an Information Systems Engineer at Uga Resorts,I specialize in managing and optimizing key operational systems, including Oracle Cloud Opera, Oracle Symphony, and Microsoft 365 Administration, along with broader PMS, POS, and ERP platforms. I bring a proactive, solutions-driven mindset to implementing, configuring, and maintaining technology that enhances efficiency across departments. My role involves collaborating closely with operational teams, conducting system audits, supporting staff through training, and coordinating with vendors to ensure seamless integrations. I am committed to driving continuous improvement, strengthening data security, and exploring innovative technologies that elevate business performance and the overall guest experience.'
     },
 
 
