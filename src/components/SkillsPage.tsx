@@ -12,8 +12,8 @@ const SkillsPage = () => {
   ];
 
   const tools = [
-  'MS Project Management','Power BI ' ,' Jira Ticket Management system', 'IBM Rational Architect', 'VS Code', 'IntelliJ IDEA','Notion',
-    'Figma', 'Slack', 'GitHub'
+  'MS Project Management','Power BI ' ,' Jira Ticket Management system', 'IBM Rational Architect', 'Oracle Cloud Opera', 'Oracle Symphony','Notion',
+    'Figma', 'Slack', 'Microsoft 365 Administration'
   ];
 
   const SkillCard = ({ title, skills, icon }: { title: string; skills: string[]; icon: string }) => (
