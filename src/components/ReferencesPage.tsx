@@ -8,7 +8,7 @@ const ReferencesPage = () => {
       id: 1,
       name: 'Shanka Alwis',
       designation: 'Junior Lead | Technologies',
-      company: 'Spa Ceylon Ayurveda Wellness,Sri Lanka.',
+      company: 'Spa Ceylon Ayurveda Wellness,Sri Lanka',
       email: 'shanka@spaceylon.com',
       phone: '+94715333531',
 
