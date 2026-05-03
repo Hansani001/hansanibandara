@@ -8,7 +8,7 @@ const ExperiencePage = () => {
 
       id: 1,
       company: ' Uga Resorts',
-      position: 'System Engineer - Information Technology',
+      position: 'Systems Engineer - Information Technology',
       location: 'Sri Lanka',
       period: 'Nov 2025 - Present ',
       description: 'As an Information Systems Engineer at Uga Resorts,I specialize in managing and optimizing key operational systems, including Oracle Cloud Opera, Oracle Symphony, and Microsoft 365 Administration, along with broader PMS, POS, and ERP platforms. I bring a proactive, solutions-driven mindset to implementing, configuring, and maintaining technology that enhances efficiency across departments. My role involves collaborating closely with operational teams, conducting system audits, supporting staff through training, and coordinating with vendors to ensure seamless integrations. I am committed to driving continuous improvement, strengthening data security, and exploring innovative technologies that elevate business performance and the overall guest experience.'
