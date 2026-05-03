@@ -6,20 +6,20 @@ const ReferencesPage = () => {
   const references = [
     {
       id: 1,
-      name: 'Dasuni Nawinna',
-      designation: 'Assistant Professor,Department of Computer Systems Engineering',
-      company: 'Sri Lanka Institute of Information Technology.',
-      email: 'dasuni.n@sliit.lk',
-      phone: '+94773504553',
+      name: 'Shanka Alwis',
+      designation: 'Junior Lead | Technologies',
+      company: 'Spa Ceylon Ayurveda Wellness,Sri Lanka.',
+      email: 'shanka@spaceylon.com',
+      phone: '+94715333531',
 
     },
     {
       id: 2,
-      name: ' Prasanna Karunarathna',
-      designation: 'Head Of Business Operation & Change Management',
-      company: 'London Stock Exchange Group, Sri Lanka',
-      email: 'prasanna.karunarathna@lseg.com',
-      phone: '+94777660944',
+      name: ' Chandima Amarasekara',
+      designation: 'Director|Information Technology',
+      company: 'Uga Resorts, Sri Lanka',
+      email: 'dit@ugaresorts.com',
+      phone: '+94715953860',
     
     },
     
