@@ -16,7 +16,7 @@ const ReferencesPage = () => {
     {
       id: 2,
       name: ' Chandima Amarasekara',
-      designation: 'Director|Information Technology',
+      designation: 'Director | Information Technology',
       company: 'Uga Resorts, Sri Lanka',
       email: 'dit@ugaresorts.com',
       phone: '+94715953860',
